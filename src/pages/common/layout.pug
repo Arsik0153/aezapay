@@ -1,0 +1,45 @@
+doctype html
+html(lang="ru")
+    block head
+        head
+            meta(charset="utf-8")
+            title AezaPay — Новые решения для Вашего бизнеса.
+
+            <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+            <meta name="format-detection" content="telephone=no">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&family=Inter&family=Unbounded&display=swap" rel="stylesheet">
+
+            //- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+            //- <link rel='stylesheet'  href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/css/lightgallery.css?ver=5.8.3' type='text/css' media='all' />
+            link(rel="stylesheet" href="css/style.css?version=1")
+
+    body
+
+        .wrapper
+
+            block header
+                include header
+            
+            block content
+            
+            block footer
+                include footer
+
+            block modal
+                include modal
+
+        block scripts
+            <script src="js/jquery.min.js"></script>
+            //- <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js"></script>
+            //- <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+            //- <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/js/lightgallery.js'></script>
+            //- script(src='js/slick.min.js')
+            script(src='js/main.js?version=1')
+            script(src='js/zhanik.js?version=1')
+            

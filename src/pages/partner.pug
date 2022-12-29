@@ -1,0 +1,86 @@
+extends common/layout
+
+block content
+    section.intro-section.black-section
+        img.intro__img(src="img/intro/intro__partner.jpg", alt="")
+        .container 
+            .intro__box 
+                h1.t-title Партнёрская <span class="blue">программа</span>
+                .t-subtitle Станьте участником нашего реферального клуба <br/> и получайте прибыль за каждого приглашенного вами клиента!
+                .t-subtitle Не упустите шанс стать нашим партнером – перейдите <br/> по ссылке и оставьте заявку
+                .t-btn.transparent-blue 
+                    span Присоединиться
+                    img.icon.img-svg(src="img/icons/out.svg", alt="")
+                    
+    section.scheme-section.container
+        h1.t-title Схема работы
+        .bullet-grid
+            .bullet
+                .count 1
+                h3.heading Заключите <br/> партнёрское <br/> соглашение <br/> с AezaPay
+                img.item.top(src="img/partner/scheme/1.png", alt="")
+            .bullet
+                .count 2
+                h3.heading Представьте <br/> нам вашего <br/> клиента
+                img.item.bottom(src="img/partner/scheme/2.png", alt="")
+            .bullet
+                .count 3
+                h3.heading Наблюдайте <br/> за ростом <br/> объемов транзакций <br/> и комиссионными <br/> отчетами
+                img.item.top(src="img/partner/scheme/3.png", alt="")
+            .bullet
+                .count 4
+                h3.heading Получайте <br/> стабильные <br/> комиссионные <br/> выплаты
+                img.item.top(src="img/partner/scheme/4.png", alt="")
+
+    section.how-works-section.container 
+        h1.t-title Как это работает?
+        .dot 1
+        p.text После заполнения формы для присоединения <br/> к партнерской программе с вами свяжется наш <br/> менеджер.
+        .dot 2
+        p.text После прохождения верификации <br/> мы подключим вас к партнерской программе.
+        button.t-btn.lightblue.wide-btn Отправить заявку
+
+    section.whocanbe-section.black-section
+        .glow
+        h2.heading Кто может стать партнером?
+        .divider
+        .grid
+            .card
+                img.card-img(src="img/partner/whocanbe/1.png", alt="")
+                h4.title Физические лица
+                p.description Все, кто работает или знаком <br/> с бизнесом, который <br/> принимает электронные <br/> платежи онлайн.
+            .divider-vertical
+            .card
+                img.card-img(src="img/partner/whocanbe/2.png", alt="")
+                h4.title Компании
+                p.description Все типы бизнеса с любым <br/> направлением деятельности, которые <br/> оказывает услуги компаниям,<br/> принимающим онлайн-платежи.
+            .divider-vertical
+            .card
+                img.card-img(src="img/partner/whocanbe/3.png", alt="")
+                h4.title Разработчики и агентства
+                p.description Все, кто имеет отношение <br/> к платежным механизмам <br/> на клиентских веб-ресурсах: хостинг-<br/>провайдеры, CMS-платформы, <br/> маркетинговые сервисы и т.д.
+
+    section.qa-section
+        .questions 
+            h3.heading Вопрос
+            .list
+                button.question.active
+                    span.count 1
+                    span.text Существуют ли какие-либо вступительные взносы?
+                    img.img-svg(src='img/partner/qa/arrow-right.svg', alt='')
+                button.question
+                    span.count 2
+                    span.text Сколько я могу заработать?
+                    img.img-svg(src='img/partner/qa/arrow-right.svg', alt='')
+                button.question
+                    span.count 3
+                    span.text Как работают реферальные выплаты?
+                    img.img-svg(src='img/partner/qa/arrow-right.svg', alt='')
+                button.question
+                    span.count 4
+                    span.text Постоянная поддержка?
+                    img.img-svg(src='img/partner/qa/arrow-right.svg', alt='')
+                    
+        .answers 
+            h3.heading Ответ
+            .message Регистрация в наших партнерских программах абсолютно бесплатна, и вы не будете платить никаких сборов.
